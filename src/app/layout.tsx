@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     title: `${DATA.name}`,
     description: DATA.description,
     url: DATA.url,
-    siteName: `${DATA.name}`,
+    siteName: `${DATA.name}'s Profile`,
     locale: "en_US",
     type: "website",
   },

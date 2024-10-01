@@ -11,7 +11,7 @@ export const DATA = {
     "I am a frontend engineer, I enjoy exploring new technologies and making friends.",
   summary:
     "In 2016, I embarked on my journey in game development and successfully created several games over the years. Currently, I am deeply immersed in front-end development, where I am committed to continuously enhancing my software development skills. My goal is to delve into various technologies and explore the ultimate possibilities that the future holds.\n2016年，我踏入游戏开发领域，在几年间成功开发过多款游戏。如今，我深耕于前端领域，并将持续提高各项软件开发技术，探索未来的更多可能性。",
-  avatarUrl: "/me.png",
+  avatarUrl: "/me.webp",
   skills: [
     "React",
     "Vue",
@@ -21,7 +21,6 @@ export const DATA = {
     "Node.js",
     "Python",
     "Docker",
-    "Java",
     "Cocos Creator",
   ],
   navbar: [
@@ -168,7 +167,7 @@ export const DATA = {
     {
       title: "Kie Ocr",
       href: "http://kieocr.com",
-      dates: "Jan 2024 - Feb 2024",
+      dates: "2024 - 2024",
       active: true,
       description:
         "AI-based OCR technology can train more accurate OCR models, thereby improving OCR recognition accuracy and precision. This is because AI can process more data and can use machine learning algorithms and deep learning models to automatically optimize OCR models.",
@@ -191,10 +190,11 @@ export const DATA = {
       video:
         "",
     },
+    
     {
       title: "Pinvo",
       href: "https://pinvo.ai",
-      dates: "June 2023 - Present",
+      dates: "2023 - 2024",
       active: true,
       description:
         "Pinvo is your all-in-one bookkeeping solution that combines AI+Experts to provide you with a real end-to-end bookkeeping solution. Pinvo's AI automates reconciliation, document collection and client communication, whist the expert bookkeepers ensure accuracy and handle the rest.",
@@ -215,9 +215,62 @@ export const DATA = {
       video: "",
     },
     {
+      title: "Nice Axios",
+      href: "http://kieocr.com",
+      dates: "2023 - 2024",
+      active: true,
+      description:
+        `NiceAxios 是一个功能强大的库，它旨在为开发者提供一个更灵活、易扩展的方式来使用 Axios，一个广泛使用的基于 Promise 的 HTTP 客户端。通过利用"洋葱模型"（例如著名的 Koa 服务器就是使用了这个模型）构建的插件系统，NiceAxios 为 Axios 请求流程提供了一种切面编程的方法，从而让开发者能够以模块化的方式拦截请求和响应，注入自定义逻辑或功能，以及重新定义请求的行为。`,
+      technologies: [
+        "Node.js",
+        "Axios",
+        "Typescript",
+        "Swagger",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://github.com/sixdjango/nice-axios",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/sixdjango/nice-axios",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/nice_axios.png",
+      video:
+        "",
+    },
+    {
+      title: "Pinvo App",
+      href: "https://pinvo.ai",
+      dates: "2023 - 2024",
+      active: true,
+      description:
+        "Using Flutter cross-platform technology, high-performance apps are provided for both iOS and Android, along with native capabilities such as camera and Bluetooth.",
+      technologies: [
+        "Flutter",
+        "Bloc",
+        "Google Auth",
+        "Firebase",
+        "Dart",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://pinvo.ai",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "",
+      video: "/pinvo_app.mp4",
+    },
+    {
       title: "小磁场",
       href: "https://xiaocichang.com",
-      dates: "December 2021 - September 2022",
+      dates: "2021 - 2022",
       active: true,
       description:
         "为你的作品和粉丝打造, 属于自己的创收俱乐部",
@@ -245,7 +298,7 @@ export const DATA = {
     {
       title: "快货运",
       href: "https://kuaihuoyun.com",
-      dates: "April 2023 - March 2024",
+      dates: "2020 - 2021",
       active: true,
       description:
         "快货运提供包括运输管理系统、网络货运管理与监管系统、以及车载定位设备小黑卡等在内的多种软硬件产品。我们的目标是帮助传统物流企业实现数字化转型升级，全面助力物流行业中的货主、货运代理人、物流平台以及司机等各个角色实现全链条的数字化",
@@ -264,6 +317,51 @@ export const DATA = {
         },
       ],
       image: "/khy_website.png",
+      video:
+        "",
+    },
+    {
+      title: "出海罗盘",
+      href: "https://home.yifeilun.com/#/",
+      dates: "2024 - 2024",
+      active: true,
+      description:
+        "帮助企业出海营销，用AI人工智能科技为外贸企业赋能。后台建立 Whatsapp 服务，通过前端扫码登录进行电话验证好友聊天等技术。以及使用 Ai 技术将商家的视频素材一键变为商品介绍视频进行转发营销。",
+      technologies: [
+        "React.js",
+        "Typescript",
+        "Prisma",
+        "TailwindCSS",
+        "Andt Design",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://home.yifeilun.com/#/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/chlp.png",
+      video:
+        "",
+    },
+    {
+      title: "德清县取水系统",
+      href: "",
+      dates: "2024 - 2024",
+      active: true,
+      description:
+        "与德清县合作，解决取水管理难的问题。分别设计了大屏系统和后台系统，大屏采用 `openlayers` 地图展示取水点，后台系统采用 `react` + `antd` 进行开发",
+      technologies: [
+        "React.js",
+        "Typescript",
+        "TailwindCSS",
+        "Andt Design",
+        "Openlayers",
+      ],
+      links: [
+      ],
+      image: "/dqdp.png",
       video:
         "",
     },
